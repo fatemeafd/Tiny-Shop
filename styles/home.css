@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+
+.logo {
+  background-color: #ffc0cb;
+  font-size: 100px;
+  color: #ff1493;
+  padding: 30px;
+}
+
+.header {
+  direction: rtl;
+  display: flex;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Vazirmatn";
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid;
+  width: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-family: "Vazirmatn";
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  margin-right: 5px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.search {
+  padding: 10px 20px;
+  font-family: "Vazirmatn";
+  font-size: 25px;
+  background-color: aliceblue;
+  border: none;
+  position: absolute;
+  left: 40px;
+  width: 1000px;
+  height: 50px;
+  border-radius: 5px;
+}
