@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tiny Shop</title>
+    <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/home.css" />
   </head>
   <body>
@@ -14,8 +15,87 @@
       <div class="header">
         <a href="login.html" class="login">ورود</a>
         <a href="signup.html" class="signup">عضویت</a>
-        <input type="text" placeholder="جستجوی محصول" class="search" />      </div>
+        <input type="text" placeholder="جستجوی محصولات" class="search" />
+        <a href="new.html" class="newproduct">اضافه کردن محصول جدید</a>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <h2>لیست محصولات</h2>
+        <ul class="product-list">
+          <li class="product-item">
+            <img src="image/powder-cream.jpg" alt="کرم پودر" />
+            <p>کرم پودر</p>
+          </li>
+          <li class="product-item">
+            <img src="image/abresan.jpg" alt="کرم آب رسان" />
+            <p>کرم آب رسان صورت</p>
+          </li>
+
+          <li class="product-item">
+            <img src="image/micellar-water.jpg" alt="میسلار واتر" />
+            <p>میسلار واتر</p>
+          </li>
+
+          <li class="product-item">
+            <img src="image/toner.jpg" alt="تونر واش صورت" />
+            <p>تونر واش صورت</p>
+          </li>
+          <li class="product-item">
+            <img src="image/face-gel.jpg" alt="ژل شستشوی صورت" />
+            <p>ژل شستشوی صورت</p>
+          </li>
+          <li class="product-item">
+            <img src="image/eye-liner.jpg" alt="خط چشم" />
+            <p>خط چشم</p>
+          </li>
+          <li class="product-item">
+            <img src="image/rimel.jpg" alt="ریمل" />
+            <p>ریمل</p>
+          </li>
+          <li class="product-item">
+            <img src="image/eye-shadow.jpg" alt="سایه چشم رنگی" />
+            <p>سایه رنگی چشم</p>
+          </li>
+          <li class="product-item">
+            <img src="image/eyebrow-shadow.jpg" alt="سایه ابرو" />
+            <p>سایه ابرو</p>
+          </li>
+          <li class="product-item">
+            <img src="image/eyebrow-rimel.jpg" alt="ریمل ابرو" />
+            <p>ریمل ابرو</p>
+          </li>
+          <li class="product-item">
+            <img src="image/lipstick.jpg" alt=" رژ لب" />
+            <p>رژ لب</p>
+          </li>
+          <li class="product-item">
+            <img src="image/lipliner.jpg" alt="خط لب" />
+            <p>خط لب</p>
+          </li>
+          <li class="product-item">
+            <img src="image/rozhgune.jpg" alt="رژگونه" />
+            <p>رژگونه</p>
+          </li>
+          <!-- <li><del>100$</del><ins>90$</ins></li> -->
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer">
+        <li>
+          <a href="#home">خانه</a>
+        </li>
+        <li>
+          <a href="#about">درباره ی ما</a>
+        </li>
+        <li>
+          <a href="#contact">تماس با ما</a>
+        </li>
+        <li>
+          <a class="tag" href="#detail">Detail</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
