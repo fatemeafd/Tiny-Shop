@@ -1,3 +1,74 @@
+@font-face {
+  font-family: vazirr;
+  src: url(font/Vazirmatn/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(font/Vazirmatn/Vazirmatn-VariableFont_wght.ttf);
+}
+
 html {
-  direction: ;
+  box-sizing: border-box;
+  font-family: "vazirr";
+  direction: rtl;
+}
+
+body {
+  text-align: center;
+}
+
+.logo {
+  background-color: #ffc0cb;
+  font-size: 80px;
+  color: #ff1493;
+  margin-top: 0;
+}
+
+.header-menu {
+  margin-bottom: 0;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+.header-menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-menu ul li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.header-menu .active {
+  background-color: #ff1493;
+}
+
+.success-toast {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  box-shadow: 1px 1px 10px #000;
+  z-index: 999;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.success-toast-close {
+  top: -100%;
+}
+
+.success-toast-open {
+  top: 20px;
 }
